@@ -134,3 +134,20 @@ input {
   columns-span all;
 }
   
+p1,p2,p3,p4,p5{
+  background-color: #4aaaa5;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    height: 44px;
+    padding: 10px 10px 0 10px;
+    text-decoration: none;
+    text-align: center
+}
+
+.grid-container {
+  display:grid;
+  grid-template-rows: repeat(2, minmax (200px,200px));
+  grid-template-columns: repeat(2, 1fr);
+}
